@@ -39,7 +39,7 @@ PRODUCT_MANUFACTURER := Sony
 PRODUCT_DEVICE := karin
 PRODUCT_MODEL := Xperia Z4 Tablet
 # Set product characteristics directly for Soong RRO generation
-PRODUCT_CHARACTERISTICS := tablet,nosdcard
+PRODUCT_CHARACTERISTICS := tablet
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="SGP771-user 7.1.1 32.4.A.1.54-219395100 release-keys"
