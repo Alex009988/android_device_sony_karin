@@ -42,7 +42,9 @@ PRODUCT_MODEL := Xperia Z4 Tablet
 PRODUCT_CHARACTERISTICS := tablet
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="SGP771-user 7.1.1 32.4.A.1.54-219395100 release-keys"
-
-BUILD_FINGERPRINT := Sony/SGP771/SGP771:7.1.1/32.4.A.1.54/219395100:user/release-keys
-
+    BuildDesc="SGP771-user 7.1.1 32.4.A.1.54 219395100 release-keys" \
+    BuildFingerprint=Sony/SGP771/SGP771:7.1.1/32.4.A.1.54/219395100:user/release-keys \
+    DeviceName=karin \
+    DeviceProduct=karin \
+    SystemDevice=karin \
+    SystemName=karin
